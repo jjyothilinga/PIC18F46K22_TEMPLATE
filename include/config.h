@@ -11,7 +11,7 @@
 *	OSCILLATOR CONFIG
 *----------------------------------------*/
 
-#define SYSTEM_CLOCK			(64000000UL)	// Hz		// 8MHz internal oscillator
+#define SYSTEM_CLOCK			(64000000UL)	// Hz		// 16MHz internal oscillator
 
 
 /*----------------------------------------

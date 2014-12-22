@@ -117,8 +117,9 @@ void BRD_init(void)
 	}
 
 	//calculating tick period for timer-0
-	temp = (clock / 4);	
-	temp /= TIMER0_TIMEOUT_DURATION;		
+	temp = clock >> 2;	
+	temp *= (TIMER0_TIMEOUT_DURATION/1000);
+	temp /= 1000;		
 
 	tickPeriod = (FULLSCALE_16BIT - (UINT16)temp);
 
