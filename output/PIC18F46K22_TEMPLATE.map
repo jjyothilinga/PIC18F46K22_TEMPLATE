@@ -1,5 +1,5 @@
 MPLINK 4.48, Linker
-Linker Map File - Created Wed Dec 24 15:28:23 2014
+Linker Map File - Created Fri Jan 09 11:48:43 2015
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,43 +9,43 @@ Linker Map File - Created Wed Dec 24 15:28:23 2014
               high_vector       code   0x000008    program   0x000018
                    .cinit    romdata   0x000020    program   0x000026
             .code_timer.o       code   0x000046    program   0x00031a
-            .code_board.o       code   0x000360    program   0x000144
-               _cinit_scn       code   0x0004a4    program   0x00009e
-             .code_main.o       code   0x000542    program   0x000084
-         .code_fxd3232u.o       code   0x0005c6    program   0x000048
-          .code_t1write.o       code   0x00060e    program   0x000038
-          .code_t0write.o       code   0x000646    program   0x000038
-           .code_t0open.o       code   0x00067e    program   0x000038
-                    .code       code   0x0006b6    program   0x000020
-        .code_heartBeat.o       code   0x0006d6    program   0x00001e
-             _startup_scn       code   0x0006f4    program   0x00001c
-      .romdata_fxd3232u.o    romdata   0x000710    program   0x000000
-         .idata_timer.o_i    romdata   0x000710    program   0x000014
-         .romdata_timer.o    romdata   0x000710    program   0x000000
-        .romdata_t0open.o    romdata   0x000710    program   0x000000
-       .romdata_t0write.o    romdata   0x000710    program   0x000000
-        .romdata_config.o    romdata   0x000710    program   0x000000
-       .romdata_t1write.o    romdata   0x000710    program   0x000000
-          .romdata_main.o    romdata   0x000710    program   0x000000
-.romdata_interruptvector.o    romdata   0x000710    program   0x000000
-     .romdata_heartBeat.o    romdata   0x000710    program   0x000000
-         .romdata_board.o    romdata   0x000710    program   0x000000
-        .romdata___init.o    romdata   0x000710    program   0x000000
-         .romdata_c018i.o    romdata   0x000710    program   0x000000
-       .idata_t1write.o_i    romdata   0x000724    program   0x000000
-       .idata_t0write.o_i    romdata   0x000724    program   0x000000
-          .idata_main.o_i    romdata   0x000724    program   0x000000
-        .idata_t0open.o_i    romdata   0x000724    program   0x000000
-.idata_interruptvector.o_i    romdata   0x000724    program   0x000000
-     .idata_heartBeat.o_i    romdata   0x000724    program   0x000001
-      .idata_fxd3232u.o_i    romdata   0x000725    program   0x000000
-         .idata_c018i.o_i    romdata   0x000725    program   0x000000
-        .idata_config.o_i    romdata   0x000725    program   0x000000
-         .idata_board.o_i    romdata   0x000725    program   0x000002
-        .idata___init.o_i    romdata   0x000727    program   0x000000
-            .code_c018i.o       code   0x000728    program   0x000000
-  .code_interruptvector.o       code   0x000728    program   0x000000
-           .code_config.o       code   0x000728    program   0x000000
+            .code_board.o       code   0x000360    program   0x000146
+               _cinit_scn       code   0x0004a6    program   0x00009e
+             .code_main.o       code   0x000544    program   0x000084
+         .code_fxd3232u.o       code   0x0005c8    program   0x000048
+          .code_t1write.o       code   0x000610    program   0x000038
+          .code_t0write.o       code   0x000648    program   0x000038
+           .code_t0open.o       code   0x000680    program   0x000038
+                    .code       code   0x0006b8    program   0x000020
+        .code_heartBeat.o       code   0x0006d8    program   0x00001e
+             _startup_scn       code   0x0006f6    program   0x00001c
+      .romdata_fxd3232u.o    romdata   0x000712    program   0x000000
+         .idata_timer.o_i    romdata   0x000712    program   0x000014
+         .romdata_timer.o    romdata   0x000712    program   0x000000
+        .romdata_t0open.o    romdata   0x000712    program   0x000000
+       .romdata_t0write.o    romdata   0x000712    program   0x000000
+        .romdata_config.o    romdata   0x000712    program   0x000000
+       .romdata_t1write.o    romdata   0x000712    program   0x000000
+          .romdata_main.o    romdata   0x000712    program   0x000000
+.romdata_interruptvector.o    romdata   0x000712    program   0x000000
+     .romdata_heartBeat.o    romdata   0x000712    program   0x000000
+         .romdata_board.o    romdata   0x000712    program   0x000000
+        .romdata___init.o    romdata   0x000712    program   0x000000
+         .romdata_c018i.o    romdata   0x000712    program   0x000000
+       .idata_t1write.o_i    romdata   0x000726    program   0x000000
+       .idata_t0write.o_i    romdata   0x000726    program   0x000000
+          .idata_main.o_i    romdata   0x000726    program   0x000000
+        .idata_t0open.o_i    romdata   0x000726    program   0x000000
+.idata_interruptvector.o_i    romdata   0x000726    program   0x000000
+     .idata_heartBeat.o_i    romdata   0x000726    program   0x000001
+      .idata_fxd3232u.o_i    romdata   0x000727    program   0x000000
+         .idata_c018i.o_i    romdata   0x000727    program   0x000000
+        .idata_config.o_i    romdata   0x000727    program   0x000000
+         .idata_board.o_i    romdata   0x000727    program   0x000002
+        .idata___init.o_i    romdata   0x000729    program   0x000000
+            .code_c018i.o       code   0x00072a    program   0x000000
+  .code_interruptvector.o       code   0x00072a    program   0x000000
+           .code_config.o       code   0x00072a    program   0x000000
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
     .config_300003_main.o    romdata   0x300003    program   0x000001
@@ -92,11 +92,11 @@ Linker Map File - Created Wed Dec 24 15:28:23 2014
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x000726      
+                            0x000000    0x000728      
                             0x300001    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            1842 out of 29720 program addresses used, program memory utilization is 6%
+            1844 out of 29720 program addresses used, program memory utilization is 6%
 
 
 
@@ -105,25 +105,25 @@ Linker Map File - Created Wed Dec 24 15:28:23 2014
                 ---------  ---------  ---------  --------- ---------                
                  BRD_init   0x000360    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\board.c
          EnableInterrupts   0x00001a    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\interruptvector.c
-                 FXD3232U   0x0005c6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                  HB_init   0x0006d6    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
-                  HB_task   0x0006dc    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
-               OpenTimer0   0x00067e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                 FXD3232U   0x0005c8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                  HB_init   0x0006d8    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
+                  HB_task   0x0006de    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
+               OpenTimer0   0x000680    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
                  TMR0_ISR   0x000046    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                 TMR0_init   0x000284    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                  TMR1_ISR   0x00011c    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                 TMR1_init   0x0002ca    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                  TMR2_ISR   0x0001d6    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                 TMR2_init   0x00032c    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
-              WriteTimer0   0x000646    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-              WriteTimer1   0x00060e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t1write.c
+              WriteTimer0   0x000648    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+              WriteTimer1   0x000610    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t1write.c
            ___if_lbl00001   0x000010    program     static                          
            ___if_lbl00002   0x000018    program     static                          
        ___return_lbl00000   0x000018    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x00060c    program     static                          
-       ___return_lbl00001   0x00070e    program     static                          
-       ___return_lbl00002   0x000540    program     static                          
+       ___return_lbl00000   0x00060e    program     static                          
+       ___return_lbl00001   0x000710    program     static                          
+       ___return_lbl00002   0x000542    program     static                          
                __config_0   0x300001    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
                __config_1   0x300002    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
               __config_10   0x30000d    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
@@ -136,24 +136,24 @@ Linker Map File - Created Wed Dec 24 15:28:23 2014
                __config_8   0x30000b    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
                __config_9   0x30000c    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
                    __init   0x000006    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-            __zero_memory   0x0006b6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                _do_cinit   0x0004a4    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+            __zero_memory   0x0006b8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                _do_cinit   0x0004a6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x000608    program     static                          
-                 _startup   0x0006f4    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                compare_l   0x0006cc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                copy_loop   0x000516    program     static                          
-            copy_one_byte   0x00051c    program     static                          
-                     done   0x000540    program     static                          
-             done_copying   0x00052a    program     static                          
+                   _false   0x00060a    program     static                          
+                 _startup   0x0006f6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x0006ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                copy_loop   0x000518    program     static                          
+            copy_one_byte   0x00051e    program     static                          
+                     done   0x000542    program     static                          
+             done_copying   0x00052c    program     static                          
            high_interrupt   0x000008    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\interruptvector.c
-                     loop   0x0005d4    program     static                          
-                     loop   0x000704    program     static                          
-                   loop_h   0x0006c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                   loop_l   0x0006ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                     main   0x000542    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
-                     test   0x0004be    program     static                          
-               zero_block   0x0006c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                     loop   0x0005d6    program     static                          
+                     loop   0x000706    program     static                          
+                   loop_h   0x0006c6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                   loop_l   0x0006d0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                     main   0x000544    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
+                     test   0x0004c0    program     static                          
+               zero_block   0x0006c6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
                    ADCON0   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
                ADCON0bits   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
                    ADCON1   0x000fc1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
@@ -620,31 +620,31 @@ Linker Map File - Created Wed Dec 24 15:28:23 2014
                 TMR1_init   0x0002ca    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                 TMR2_init   0x00032c    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\timer.c
                  BRD_init   0x000360    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\board.c
-                _do_cinit   0x0004a4    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x0004be    program     static                          
-                copy_loop   0x000516    program     static                          
-            copy_one_byte   0x00051c    program     static                          
-             done_copying   0x00052a    program     static                          
-       ___return_lbl00002   0x000540    program     static                          
-                     done   0x000540    program     static                          
-                     main   0x000542    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
-                 FXD3232U   0x0005c6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x0005d4    program     static                          
-                   _false   0x000608    program     static                          
-       ___return_lbl00000   0x00060c    program     static                          
-              WriteTimer1   0x00060e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t1write.c
-              WriteTimer0   0x000646    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-               OpenTimer0   0x00067e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-            __zero_memory   0x0006b6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                   loop_h   0x0006c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-               zero_block   0x0006c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                compare_l   0x0006cc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                   loop_l   0x0006ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
-                  HB_init   0x0006d6    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
-                  HB_task   0x0006dc    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
-                 _startup   0x0006f4    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x000704    program     static                          
-       ___return_lbl00001   0x00070e    program     static                          
+                _do_cinit   0x0004a6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x0004c0    program     static                          
+                copy_loop   0x000518    program     static                          
+            copy_one_byte   0x00051e    program     static                          
+             done_copying   0x00052c    program     static                          
+       ___return_lbl00002   0x000542    program     static                          
+                     done   0x000542    program     static                          
+                     main   0x000544    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
+                 FXD3232U   0x0005c8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x0005d6    program     static                          
+                   _false   0x00060a    program     static                          
+       ___return_lbl00000   0x00060e    program     static                          
+              WriteTimer1   0x000610    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t1write.c
+              WriteTimer0   0x000648    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+               OpenTimer0   0x000680    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+            __zero_memory   0x0006b8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                   loop_h   0x0006c6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+               zero_block   0x0006c6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                compare_l   0x0006ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                   loop_l   0x0006d0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f46k22.asm
+                  HB_init   0x0006d8    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
+                  HB_task   0x0006de    program     extern D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\heartBeat.c
+                 _startup   0x0006f6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x000706    program     static                          
+       ___return_lbl00001   0x000710    program     static                          
                __config_0   0x300001    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
                __config_1   0x300002    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c
                __config_2   0x300003    program     static D:\jo\Ideonics\Repository\PIC18F46K22_TEMPLATE\source\main.c

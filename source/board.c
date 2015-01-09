@@ -104,14 +104,14 @@ void BRD_init(void)
 
 	switch(clock)
 	{
-		case 64000000UL:
+		case MHz_64:
 		default:
-				OSCCON |= 0X70; 		//internal oscillator 16MHz
+				OSCCON = 0X70; 		//internal oscillator 16MHz
 				OSCTUNEbits.PLLEN = 1;	//PLL Enable
 		break;
 		
-		case 16000000UL:
-				OSCCON |= 0X70; 		//internal oscillator 16MHz
+		case MHz_32:
+				OSCCON = 0X70; 		//internal oscillator 16MHz
 				OSCTUNEbits.PLLEN = 0;	//PLL Enable
 		break;
 	}
