@@ -150,27 +150,18 @@ void TMR1_init(unsigned int reload , void (*func)())
 	UINT8 config, config1;
 
 	config = (TIMER_INT_ON & T1_16BIT_RW & T1_SOURCE_FOSC_4 & T1_PS_1_1 & T1_OSC1EN_OFF & T1_SYNC_EXT_OFF);
-	config1 = (TIMER_GATE_OFF & TIMER_GATE_POL_LO & TIMER_GATE_TOGGLE_OFF & TIMER_GATE_1SHOT_OFF & TIMER_GATE_SRC_T1GPIN & TIMER_GATE_INT_ON);
+	config1 = (TIMER_GATE_OFF & TIMER_GATE_POL_LO & TIMER_GATE_TOGGLE_OFF & TIMER_GATE_1SHOT_OFF & TIMER_GATE_SRC_T1GPIN & TIMER_GATE_INT_OFF);
 	// Enagle TMR1 interrrupt,16 bit counter, with internal clock, No prescalar
-//	OpenTimer1(config, config1 );
+	OpenTimer1(config, config1 );
 
-/*	T1CONbits.TMR1CS = 0; // Timer1/3/5 clock source is instruction clock (FOSC/4)
-	T1CONbits.T1CKPS = 0; // No prescalar
-	T1CONbits.T1SOSCEN = 0;
-	T1CONbits.T1SYNC = 1;
-	T1CONbits.T1RD16 = 1;
-	T1CONbits.TMR1ON = 1; //Turn on timer
-*/
-
-	T1GCON = 0x00;
-	T1GCONbits.TMR1GE = 0;
-	T1CON = 0X07;
 
 	// Reload value for 1ms overflow
 	WriteTimer1(reload);
 	// Make timer1 interrupt high priority
   	IPR1bits.TMR1IP = 1;
 	PIE1bits.TMR1IE = 1;
+
+ 	T1CON         = 0x01;
 
 	tmr[1].reload = reload;
 	tmr[1].func = func;

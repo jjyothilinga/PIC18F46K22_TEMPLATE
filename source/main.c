@@ -153,6 +153,7 @@ void main(void)
 
 	TMR0_init(tickPeriod,0);		//initialize timer0
 
+	TMR1_init(tickPeriod,0);		//initialize timer0
 	EnableInterrupts();		//Interrupts initialization
 
 	//Heart Beat to blink at every 500ms
